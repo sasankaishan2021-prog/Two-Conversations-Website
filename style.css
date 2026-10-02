@@ -1728,4 +1728,21 @@ header,
     color: #777;
     margin-top: 20px;
 }
+@media (max-width: 768px) {
+
+    .footer-brand h3 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        white-space: normal;
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+}
 

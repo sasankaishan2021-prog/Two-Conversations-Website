@@ -1652,12 +1652,80 @@ html {
 body {
     overflow-x: hidden;
 }
-
-.footer {
-    position: relative;
-    z-index: 1;
-    clear: both;
-    width: 100%;
-    display: block;
-    margin-top: 0;
+.nav-menu {
+    display: flex !important;
+    position: static !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+    gap: 20px !important;
 }
+header,
+.header,
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu a,
+.footer-links a,
+.footer-column a {
+    color: #2f211b !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.footer-bottom,
+.footer-bottom span {
+    color: #2f211b !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+.footer-brand h3,
+.footer-brand p {
+    color: #2f211b !important;
+}
+.footer {
+    background: linear-gradient(135deg, #f8f4ee, #f2ebe2);
+    padding: 50px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-brand h3 {
+    font-size: 40px;
+    color: #2f211b;
+    border-left: 5px solid #c7a17a;
+    padding-left: 15px;
+}
+
+.footer-brand p {
+    color: #6a5c55;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.footer-bottom {
+    color: #2f211b;
+    margin-top: 20px;
+}
+.footer {
+    background: #ffffff;
+    padding: 40px 50px;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer-brand h3 {
+    color: #2f211b;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.footer-brand p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.footer-bottom {
+    color: #777;
+    margin-top: 20px;
+}
+
